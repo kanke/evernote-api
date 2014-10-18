@@ -1,0 +1,12 @@
+<!doctype html>
+<title>Evernote Sample Code: giphy</title>
+<img src="{{ giphy_url }}"><br>
+
+<a href="/"><h1>Random Image</h1></a><br>
+tags: {{ giphy_tags }}<br>
+<form method='post'>
+		<input type="hidden" name="giphy_id" value="{{ giphy_id }}">
+		<input type="hidden" name="giphy_tags" value="{{ giphy_tags }}">
+		<input type="submit" value="Save to Evernote">
+</form>
+
